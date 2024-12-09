@@ -1,0 +1,33 @@
+* {
+    font-family: "Prompt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: rgb(230, 230, 230);
+}
+
+
+.calendar {
+    width: fit-content; 
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.calendar td {
+    border: 1px solid black;
+    text-align: center;
+    width: 15%;
+    height: 30px;
+    padding: 5px;
+}
+
+tr, td {
+    border: 1px solid black;
+}
+
+.other {
+    background-color: rgb(179, 179, 255);
+    color: rgb(255, 83, 83);
+}
