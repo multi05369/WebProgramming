@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab 3 Task 1</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="container mt-5">
+      <h2 class="text-center mb-4">Registration Form</h2>
+      <form>
+        <div class="form-group">
+          <label for="id">Citizen ID:</label>
+          <input
+            type="text"
+            class="form-control"
+            name="id"
+            id="id"
+            placeholder="Enter your ID"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="prefix">Prefix:</label>
+          <select class="form-control" name="prefix" id="prefix">
+            <option value="00" selected>Choose your prefix</option>
+            <option value="01">Mr</option>
+            <option value="02">Mrs</option>
+            <option value="03">Miss</option>
+            <option value="04">Ms</option>
+            <option value="05">Don't want to specify</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="name">First Name:</label>
+          <input
+            type="text"
+            class="form-control"
+            name="name"
+            id="name"
+            placeholder="Enter your first name"
+          />
+        </div>
+        <div class="form-group">
+          <label for="surname">Surname:</label>
+          <input
+            type="text"
+            class="form-control"
+            name="surname"
+            id="surname"
+            placeholder="Enter your surname"
+          />
+        </div>
+        <div class="form-group">
+          <label for="address">Address:</label>
+          <textarea
+            class="form-control"
+            name="address"
+            id="address"
+            placeholder="Enter your address"
+          ></textarea>
+        </div>
+        <div class="form-group">
+          <label for="district">District:</label>
+          <input
+            type="text"
+            class="form-control"
+            name="district"
+            id="district"
+            placeholder="Enter your district"
+          />
+        </div>
+        <div class="form-group">
+          <label for="county">County:</label>
+          <input
+            type="text"
+            class="form-control"
+            name="county"
+            id="county"
+            placeholder="Enter your county"
+          />
+        </div>
+        <div class="form-group">
+          <label for="province">Province:</label>
+          <select class="form-control" name="province" id="province">
+            <option value="00" selected>
+              --------- Select Province ---------
+            </option>
+            <option value="Bangkok">Bangkok</option>
+            <option value="Krabi">Krabi</option>
+            <option value="Kanchanaburi">Kanchanaburi</option>
+            <option value="Kalasin">Kalasin</option>
+            <option value="Kamphaeng Phet">Kamphaeng Phet</option>
+            <option value="Khon Kaen">Khon Kaen</option>
+            <option value="Chanthaburi">Chanthaburi</option>
+            <option value="Chachoengsao">Chachoengsao</option>
+            <option value="Chai Nat">Chai Nat</option>
+            <option value="Chaiyaphum">Chaiyaphum</option>
+            <option value="Chumphon">Chumphon</option>
+            <option value="Chon Buri">Chon Buri</option>
+            <option value="Chiang Mai">Chiang Mai</option>
+            <option value="Chiang Rai">Chiang Rai</option>
+            <option value="Trang">Trang</option>
+            <option value="Trat">Trat</option>
+            <option value="Tak">Tak</option>
+            <option value="Nakhon Nayok">Nakhon Nayok</option>
+            <option value="Nakhon Pathom">Nakhon Pathom</option>
+            <option value="Nakhon Phanom">Nakhon Phanom</option>
+            <option value="Nakhon Ratchasima">Nakhon Ratchasima</option>
+            <option value="Nakhon Si Thammarat">Nakhon Si Thammarat</option>
+            <option value="Nakhon Sawan">Nakhon Sawan</option>
+            <option value="Narathiwat">Narathiwat</option>
+            <option value="Nan">Nan</option>
+            <option value="Nonthaburi">Nonthaburi</option>
+            <option value="Bueng Kan">Bueng Kan</option>
+            <option value="Buri Ram">Buri Ram</option>
+            <option value="Prachuap Khiri Khan">Prachuap Khiri Khan</option>
+            <option value="Pathum Thani">Pathum Thani</option>
+            <option value="Prachin Buri">Prachin Buri</option>
+            <option value="Pattani">Pattani</option>
+            <option value="Phayao">Phayao</option>
+            <option value="Phra Nakhon Si Ayutthaya">
+              Phra Nakhon Si Ayutthaya
+            </option>
+            <option value="Phangnga">Phangnga</option>
+            <option value="Phichit">Phichit</option>
+            <option value="Phitsanulok">Phitsanulok</option>
+            <option value="Phetchaburi">Phetchaburi</option>
+            <option value="Phetchabun">Phetchabun</option>
+            <option value="Phrae">Phrae</option>
+            <option value="Phatthalung">Phatthalung</option>
+            <option value="Phuket">Phuket</option>
+            <option value="Maha Sarakham">Maha Sarakham</option>
+            <option value="Mukdahan">Mukdahan</option>
+            <option value="Mae Hong Son">Mae Hong Son</option>
+            <option value="Yasothon">Yasothon</option>
+            <option value="Yala">Yala</option>
+            <option value="Roi Et">Roi Et</option>
+            <option value="Ranong">Ranong</option>
+            <option value="Rayong">Rayong</option>
+            <option value="Ratchaburi">Ratchaburi</option>
+            <option value="Lop Buri">Lop Buri</option>
+            <option value="Lampang">Lampang</option>
+            <option value="Lamphun">Lamphun</option>
+            <option value="Loei">Loei</option>
+            <option value="Si Sa Ket">Si Sa Ket</option>
+            <option value="Sakon Nakhon">Sakon Nakhon</option>
+            <option value="Songkhla">Songkhla</option>
+            <option value="Samut Sakhon">Samut Sakhon</option>
+            <option value="Samut Prakan">Samut Prakan</option>
+            <option value="Samut Songkhram">Samut Songkhram</option>
+            <option value="Sa Kaeo">Sa Kaeo</option>
+            <option value="Saraburi">Saraburi</option>
+            <option value="Sing Buri">Sing Buri</option>
+            <option value="Sukhothai">Sukhothai</option>
+            <option value="Suphan Buri">Suphan Buri</option>
+            <option value="Surat Thani">Surat Thani</option>
+            <option value="Surin">Surin</option>
+            <option value="Satun">Satun</option>
+            <option value="Nong Khai">Nong Khai</option>
+            <option value="Nong Bua Lam Phu">Nong Bua Lam Phu</option>
+            <option value="Amnat Charoen">Amnat Charoen</option>
+            <option value="Udon Thani">Udon Thani</option>
+            <option value="Uttaradit">Uttaradit</option>
+            <option value="Uthai Thani">Uthai Thani</option>
+            <option value="Ubon Ratchathani">Ubon Ratchathani</option>
+            <option value="Ang Thong">Ang Thong</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="zipcode">Zip Code:</label>
+          <input
+            type="text"
+            class="form-control"
+            name="zipcode"
+            id="zipcode"
+            placeholder="Enter your zip code"
+          />
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Submit</button>
+      </form>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

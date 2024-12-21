@@ -1,0 +1,23 @@
+* {
+    background-color: aliceblue;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container, img{
+    display: flex;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+button {
+    margin: 10px;
+    background-color: aliceblue;
+    border: none;
+    box-shadow: 0 0 0 0.2rem rgb(59, 155, 239);
+    border-radius: 5px;
+}
