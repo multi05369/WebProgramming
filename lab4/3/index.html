@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 4 Task 3</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ตารางรายรับ-รายจ่าย</h1>
+        <h3>ยอดคงเหลือ</h3>
+        <p id="result"></p>
+        <div class="inline">
+            <input type="text" id="List" placeholder="รายการ" class="form-control">
+            <input type="text" id="Amount" placeholder="จํานวน" class="form-control">
+            <select name="Type" id="select" class="form-select">
+                <option value="รายรับ">รายรับ</option>
+                <option value="รายจ่าย">รายจ่าย</option>
+            </select>
+            <input type="date" id="Date" class="form-control">
+            <button type="button" class="btn btn-success" onclick="addRow()">เพิ่มรายการ</button>
+        </div>
+        <br>
+        <table class="table">
+            <thead>
+                <tr class="table-success">
+                    <th>Date</th>
+                    <th>List</th>
+                    <th>Income</th>
+                    <th>Expense</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        let income = 0;
+        let expense = 0;
+
+        function addRow() {
+            let date = document.getElementById("Date").value;
+            let list = document.getElementById("List").value;
+            let amount = document.getElementById("Amount").value;
+            let type = document.getElementById("select").value;
+            let tbody = document.getElementById("tbody");
+            let tr = document.createElement("tr");
+            let td1 = document.createElement("td");
+            let td2 = document.createElement("td");
+            let td3 = document.createElement("td");
+            let td4 = document.createElement("td");
+            td1.innerHTML = date;
+            td2.innerHTML = list;
+            td3.innerHTML = cal2();
+            td4.innerHTML = cal();
+            tr.appendChild(td1);
+            tr.appendChild(td2);
+            tr.appendChild(td3);
+            tr.appendChild(td4);
+            tbody.appendChild(tr);
+
+            let result = document.getElementById("result");
+            result.innerHTML = income - expense;
+        }
+
+        function cal() {
+            if (document.getElementById("select").value == "รายรับ") {
+                return "0"
+            } else {
+                expense += parseInt(document.getElementById("Amount").value);
+                return document.getElementById("Amount").value;
+            }
+        }
+
+        function cal2() {
+            if (document.getElementById("select").value == "รายรับ") {
+                income += parseInt(document.getElementById("Amount").value);
+                return document.getElementById("Amount").value;
+            } else {
+                return "0"
+            }
+        }
+    </script>
+    
+</body>
+</html>

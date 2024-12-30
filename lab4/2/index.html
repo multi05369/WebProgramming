@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab 4 Task 2</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <p>
+        <label for="name" class="form-label" id="Name"
+          >ชื่อ:
+          <input type="text" name="name" id="name" />
+        </label>
+      </p>
+      <p>
+        <label for="surname" class="form-label" id="Surname"
+          >นามสกุล:
+          <input type="text" name="surname" id="surname" />
+        </label>
+      </p>
+      <p>
+        <label for="country" class="form-label" id="label1"
+          >ประเทศ:
+          <select name="country" id="country">
+            <option value="00" id="1">เลือกประเทศ</option>
+            <option value="TH" id="2">ประเทศไทย</option>
+            <option value="SG" id="3">ประเทศสิงค์โปร</option>
+            <option value="MY" id="4">ประเทศมาเลเซีย</option>
+            <option value="ID" id="5">ประเทศอินโดนีเซีย</option>
+            <option value="VN" id="6">ประเทศเวียดนาม</option>
+            <option value="LO" id="7">ประเทศลาว</option>
+            <option value="MM" id="8">ประเทศเมียนมาร์</option>
+            <option value="CM" id="9">ประเทศกัมพูชา</option>
+            <option value="BN" id="10">ประเทศบรูไน</option>
+            <option value="PH" id="11">ประเทศฟิลิปปิน</option>
+          </select>
+        </label>
+      </p>
+      <p>
+        <button
+          type="button"
+          class="btn btn-primary"
+          onclick="changeLanguage()"
+          id="btn1"
+        >
+          เปลี่ยนเป็นภาษาอังกฤษ
+        </button>
+      </p>
+    </div>
+    <script>
+      let check = true;
+      function changeLanguage() {
+        var nameLabel = document.getElementById("Name");
+        var surnameLabel = document.getElementById("Surname");
+        var countryLabel = document.getElementById("label1");
+        var btn1 = document.getElementById("btn1");
+    
+        var op1 = document.getElementById("1");
+        var op2 = document.getElementById("2");
+        var op3 = document.getElementById("3");
+        var op4 = document.getElementById("4");
+        var op5 = document.getElementById("5");
+        var op6 = document.getElementById("6");
+        var op7 = document.getElementById("7");
+        var op8 = document.getElementById("8");
+        var op9 = document.getElementById("9");
+        var op10 = document.getElementById("10");
+        var op11 = document.getElementById("11");
+    
+        if (check) {
+          nameLabel.childNodes[0].textContent = "Name: ";
+          surnameLabel.childNodes[0].textContent = "Surname: ";
+          countryLabel.childNodes[0].textContent = "Country: ";
+          btn1.textContent = "Change to Thai";
+    
+          op1.textContent = "Select Country";
+          op2.textContent = "Thailand";
+          op3.textContent = "Singapore";
+          op4.textContent = "Malaysia";
+          op5.textContent = "Indonesia";
+          op6.textContent = "Vietnam";
+          op7.textContent = "Laos";
+          op8.textContent = "Myanmar";
+          op9.textContent = "Cambodia";
+          op10.textContent = "Brunei";
+          op11.textContent = "Philippines";
+    
+          check = false;
+        } else {
+          nameLabel.childNodes[0].textContent = "ชื่อ: ";
+          surnameLabel.childNodes[0].textContent = "นามสกุล: ";
+          countryLabel.childNodes[0].textContent = "ประเทศ: ";
+          btn1.textContent = "เปลี่ยนเป็นภาษาอังกฤษ";
+    
+          op1.textContent = "เลือกประเทศ";
+          op2.textContent = "ประเทศไทย";
+          op3.textContent = "ประเทศสิงค์โปร";
+          op4.textContent = "ประเทศมาเลเซีย";
+          op5.textContent = "ประเทศอินโดนีเซีย";
+          op6.textContent = "ประเทศเวียดนาม";
+          op7.textContent = "ประเทศลาว";
+          op8.textContent = "ประเทศเมียนมาร์";
+          op9.textContent = "ประเทศกัมพูชา";
+          op10.textContent = "ประเทศบรูไน";
+          op11.textContent = "ประเทศฟิลิปปิน";
+    
+          check = true;
+        }
+      }
+    </script>
+    
+  </body>
+</html>
