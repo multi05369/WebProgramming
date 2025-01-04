@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Khun Kan's Kitchen</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <a href="home.html" class="nav-logo">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="55"
+              height="56"
+              viewBox="0 0 55 56"
+              fill="none"
+            >
+              <path
+                d="M1.71875 54.6562H52.0781"
+                stroke="#543A14"
+                stroke-opacity="0.75"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M4.64062 48.4687C5.56529 43.2014 8.30742 38.4251 12.3899 34.9707C16.4723 31.5163 21.6367 29.6026 26.9844 29.5625C32.3212 29.5749 37.4801 31.4827 41.541 34.9455C45.6019 38.4083 48.3007 43.2009 49.1562 48.4687"
+                stroke="#543A14"
+                stroke-opacity="0.75"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M26.9844 29.3906C29.4524 29.3906 31.4531 27.3899 31.4531 24.9219C31.4531 22.4539 29.4524 20.4531 26.9844 20.4531C24.5164 20.4531 22.5156 22.4539 22.5156 24.9219C22.5156 27.3899 24.5164 29.3906 26.9844 29.3906Z"
+                stroke="#543A14"
+                stroke-opacity="0.75"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M26.9844 6.875V13.2343"
+                stroke="#543A14"
+                stroke-opacity="0.75"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M13.75 11.1719V17.3594"
+                stroke="#543A14"
+                stroke-opacity="0.75"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M40.2188 11.1719V17.3594"
+                stroke="#543A14"
+                stroke-opacity="0.75"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="about.html" class="nav-link">About</a>
+        </li>
+        <li>
+          <a href="contact.html" class="nav-link">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="container" id="container"></div>
+
+    <script>
+      const container = document.getElementById("container");
+
+      function addMenu(data) {
+        for (let item of data) {
+          let card = document.createElement("div");
+          card.className = "card";
+
+          let img = document.createElement("img");
+          img.src = item.img;
+          img.alt = "food-image";
+
+          let cardContent = document.createElement("div");
+          cardContent.className = "card-content";
+
+          let cardFooter = document.createElement("div");
+          cardFooter.className = "card-footer";
+
+          cardContent.innerHTML = `
+                        <h2>${item.name}</h2>
+                        <p>${item.description}</p>
+                    `;
+
+          cardFooter.innerHTML = `
+                        <span class="price">${item.price} Baht</span>
+                        <button class="order-btn" onclick="alert('Added ${item.name} to cart!')">Order Now</button>
+                    `;
+
+          cardContent.appendChild(cardFooter);
+          card.appendChild(img);
+          card.appendChild(cardContent);
+          container.appendChild(card);
+        }
+      }
+      fetch("food.json")
+        .then((Response) => Response.json())
+        .then((data) => addMenu(data))
+        .catch((err) => console.log(err));
+    </script>
+  </body>
+</html>

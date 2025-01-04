@@ -1,0 +1,235 @@
+.main-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.main-box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-OPYQFFnSPYl7ngrlRZMIxijhe0VwL36wJYFq0eM-yhLcAJJQ1qgBCMkjTFf7LEdyeGaAVNPiFsmUM4Kz40TP_Epf_kCsmiatRQQezVDgzzOu-sFPEE6AiKHBGwn_SRrC9doAzyPTTww/s1600/DSCF7908.jpg");
+  background-size: cover;
+  opacity: 0.35;
+  z-index: -1;
+}
+
+.index-body {
+  background-color: #f0bb78;
+}
+
+.hero-text {
+  color: #543a14;
+  font-family: "Noto Serif Thai";
+  font-size: 128px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  z-index: 1;
+}
+
+.click-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-button-link {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 221px;
+  height: 91px;
+  text-decoration: none;
+  color: #f0bb78;
+  font-family: "Noto Serif Thai";
+  font-size: 24px;
+  font-weight: 800;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.main-button-link svg {
+  position: absolute;
+  z-index: 1;
+}
+
+.main-button-link span {
+  position: relative;
+  z-index: 2;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: #543a14;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f0bb78;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 15px 0;
+  padding-left: 20px;
+  list-style: none;
+  gap: 40px;
+}
+
+nav li {
+  margin: 0;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.nav-link {
+  color: #543a14;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-family: "Quicksand", serif;
+  font-size: 30px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.nav-link:hover {
+  color: #876543;
+}
+
+.container {
+  background-color: #fff0dc;
+  border-radius: 20px;
+  max-width: 1200px;
+  margin: 9rem auto;
+  padding: 1rem 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.container-about {
+  background-color: #fff0dc;
+  border-radius: 20px;
+  max-width: 1200px;
+  margin: 9rem auto;
+  padding: 1rem 1rem;
+  gap: 2rem;
+}
+
+.card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 1.5rem;
+}
+
+.card h2 {
+  color: #92400e;
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.card p {
+  color: #666;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+}
+
+.price {
+  font-weight: bold;
+  color: #92400e;
+  font-size: 1.1rem;
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.order-btn {
+  background-color: #d97706;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.order-btn:hover {
+  background-color: #b45309;
+}
+
+
+.owner {
+    border-radius: 20%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+li, a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #543a14;
+}
+
+a:hover {
+    color: #876543;
+}

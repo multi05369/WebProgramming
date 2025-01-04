@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "name": "Tom Yum Goong",
+    "img": "https://media.cnn.com/api/v1/images/stellar/prod/151215113406-40-thai-food-1-tom-yum-goong-1.jpg?q=w_1110,c_fill/f_webp",
+    "price": 150,
+    "description": "A quintessential Thai soup known for its hot and sour flavors, made with fresh shrimp, lemongrass, galangal, kaffir lime leaves, and chili."
+  },
+  {
+    "id": 2,
+    "name": "Pad Thai",
+    "img": "https://media.cnn.com/api/v1/images/stellar/prod/151215115119-40-thai-food-33-pad-thai-1.jpg?q=w_1110,c_fill/f_webp",
+    "price": 120,
+    "description": "Stir-fried rice noodles tossed with tofu, bean sprouts, egg, and crushed peanuts, flavored with tamarind paste and fish sauce."
+  },
+  {
+    "id": 3,
+    "name": "Som Tum",
+    "img": "https://media.cnn.com/api/v1/images/stellar/prod/151215114545-40-thai-food-27-som-tam-1.jpg?q=w_1110,c_fill/f_webp",
+    "price": 90,
+    "description": "A spicy green papaya salad combining shredded papaya, tomatoes, green beans, peanuts, and a tangy lime dressing."
+  },
+  {
+    "id": 4,
+    "name": "Massaman Curry",
+    "img": "https://media.cnn.com/api/v1/images/stellar/prod/151215115423-40-thai-food-5-massaman-1.jpg?q=w_1110,c_fill/f_webp",
+    "price": 160,
+    "description": "A mild, rich curry with beef or chicken, potatoes, onions, and peanuts in a coconut milk base, flavored with cinnamon and cardamom."
+  },
+  {
+    "id": 5,
+    "name": "Khao Soi",
+    "img": "https://hot-thai-kitchen.com/wp-content/uploads/2023/05/2-2.jpg",
+    "price": 130,
+    "description": "A creamy northern Thai curry noodle soup topped with crispy fried noodles, pickled mustard greens, and lime."
+  },
+  {
+    "id": 6,
+    "name": "Pad Krapow Moo Saap",
+    "img": "https://media.cnn.com/api/v1/images/stellar/prod/151215113949-40-thai-food-21-ka-prao-kai-dao-1.jpg?q=w_1110,c_fill/f_webp",
+    "price": 100,
+    "description": "A spicy stir-fry of minced pork with holy basil, garlic, and chilies, served over rice and often topped with a fried egg."
+  },
+  {
+    "id": 7,
+    "name": "Gaeng Daeng",
+    "img": "https://hungryinthailand.com/wp-content/uploads/2023/09/gaeng-daeng-curry-768x1024.webp",
+    "price": 140,
+    "description": "A fragrant red curry made with meat, coconut milk, red curry paste, and kaffir lime leaves."
+  },
+  {
+    "id": 8,
+    "name": "Pad See Ew",
+    "img": "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipes%2F2024-05-pad-see-ew%2Fpad-see-ew-357",
+    "price": 110,
+    "description": "Stir-fried flat rice noodles with soy sauce, Chinese broccoli, and your choice of meat or tofu."
+  },
+  {
+    "id": 9,
+    "name": "Kai Med Ma Muang",
+    "img": "https://media.cnn.com/api/v1/images/stellar/prod/151215114127-40-thai-food-22-gai-pad-med-mamuang-1.jpg?q=w_1110,c_fill/f_webp",
+    "price": 120,
+    "description": "Stir-fried chicken with cashew nuts, onions, bell peppers, and dried chilies in a savory sauce."
+  },
+  {
+    "id": 10,
+    "name": "Yam Nua",
+    "img": "https://basilandbubbly.com/wp-content/uploads/2020/03/thai-beef-salad-4.jpg",
+    "price": 130,
+    "description": "A spicy Thai beef salad with grilled beef, onions, tomatoes, cucumbers, and herbs in a tangy lime dressing."
+  },
+  {
+    "id": 11,
+    "name": "Gai Yang",
+    "img": "https://media.cnn.com/api/v1/images/stellar/prod/151215113557-40-thai-food-14-gai-yang-2.jpg?q=w_1110,c_fill/f_webp",
+    "price": 150,
+    "description": "Grilled marinated chicken, often served with sticky rice and a spicy dipping sauce. A favorite street food in Thailand."
+  },
+  {
+    "id": 12,
+    "name": "Laab",
+    "img": "https://media.cnn.com/api/v1/images/stellar/prod/151215113840-40-thai-food-20-laab-moo-1.jpg?q=w_1110,c_fill/f_webp",
+    "price": 110,
+    "description": "A northeastern Thai minced meat salad, typically made with pork or chicken, mixed with herbs, lime juice, and toasted rice powder."
+  },
+  {
+    "id": 13,
+    "name": "Moo Ping",
+    "img": "https://www.seriouseats.com/thmb/uBX_NiHjV1-s9O-zRCSi73HoLq8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2019__07__20190618-grilled-thai-pork-skewers-vicky-wasik-13-8b3614c8f6234187abf1396973a4eeea.jpg",
+    "price": 50,
+    "description": "Grilled pork skewers marinated in garlic, soy sauce, and spices, commonly enjoyed as a quick street snack."
+  },
+  {
+    "id": 14,
+    "name": "Khao Pad",
+    "img": "https://khinskitchen.com/wp-content/uploads/2023/02/khao-pad-08.jpg",
+    "price": 90,
+    "description": "A simple yet flavorful Thai fried rice dish, often prepared with shrimp, chicken, or vegetables and served with lime and cucumber slices."
+  },
+  {
+    "id": 15,
+    "name": "Tom Kha Gai",
+    "img": "https://www.seriouseats.com/thmb/KDPHUB5VVZ6xwx_09Ff8ELoIwn4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20220913-Tom-Kha-Gai-vicky-wsik-Step1-Hero01-f034bd4eb374444582768d9d5fadea8a.JPG",
+    "price": 120,
+    "description": "A creamy and aromatic chicken soup made with coconut milk, galangal, lemongrass, kaffir lime leaves, and mushrooms."
+  },
+  {
+    "id": 16,
+    "name": "Gaeng Keow Wan",
+    "img": "https://media.cnn.com/api/v1/images/stellar/prod/151215114726-40-thai-food-3-green-curry.jpg?q=w_1110,c_fill/f_webp",
+    "price": 140,
+    "description": "Green curry made with coconut milk, green curry paste, Thai eggplant, and meat or tofu. It's mildly spicy and incredibly fragrant."
+  },
+  {
+    "id": 17,
+    "name": "Kanom Jeen",
+    "img": "https://media.cnn.com/api/v1/images/stellar/prod/151215114613-40-thai-food-28-khanom-jeen-1.jpg?q=w_1110,c_fill/f_webp",
+    "price": 100,
+    "description": "Soft rice noodles served with a variety of curries and fresh herbs. Popular options include green curry and fish-based sauces."
+  },
+  {
+    "id": 18,
+    "name": "Pla Kapong Neung Manao",
+    "img": "https://media.cnn.com/api/v1/images/stellar/prod/151215114237-40-thai-food-23-pla-neung-manao-1.jpg?q=w_1110,c_fill/f_webp",
+    "price": 190,
+    "description": "Steamed whole sea bass with a tangy lime, garlic, and chili dressing, served with fresh herbs and rice."
+  },
+  {
+    "id": 19,
+    "name": "Hor Mok",
+    "img": "https://cdn.shopify.com/s/files/1/0858/1205/2304/files/Hor_Mok_Pla_1_480x480.jpg?v=1726585414",
+    "price": 130,
+    "description": "A steamed curry custard made with fish, coconut milk, and spices, traditionally served in banana leaf cups."
+  },
+  {
+    "id": 20,
+    "name": "Sai Oua",
+    "img": "https://hot-thai-kitchen.com/wp-content/uploads/2017/10/sai-ua-blog.jpg",
+    "price": 90,
+    "description": "Northern Thai sausage packed with bold flavors from lemongrass, kaffir lime leaves, garlic, and chilies."
+  },
+  {
+    "id": 21,
+    "name": "Khao Niao Mamuang",
+    "img": "https://www.seriouseats.com/thmb/zAKoiU4mF2lL9f1HfbqNknt3mrk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2016__03__20160323-mango-sticky-rice-vicky-wasik-5-5ec805a5a1bd4403a0d72347ec35f693.jpg",
+    "price": 80,
+    "description": "A beloved Thai dessert made with sweet sticky rice, fresh mango slices, and coconut milk."
+  },
+  {
+    "id": 22,
+    "name": "Nam Prik Kapi",
+    "img": "https://media.cnn.com/api/v1/images/stellar/prod/151215114848-40-thai-food-31-nam-prik-kapi-1.jpg?q=w_1110,c_fill/f_webp",
+    "price": 70,
+    "description": "A pungent shrimp paste chili dip served with fresh and steamed vegetables or fried fish."
+  },
+  {
+    "id": 23,
+    "name": "Tod Mun Pla",
+    "img": "https://www.lionbrand.com.au/wp-content/uploads/2022/07/feature-Image-Thai-Fish-Cake-Recipe.jpg",
+    "price": 90,
+    "description": "Fried fish cakes made with red curry paste, kaffir lime leaves, and green beans, served with sweet chili sauce."
+  },
+  {
+    "id": 24,
+    "name": "Gaeng Hung Lay",
+    "img": "https://hot-thai-kitchen.com/wp-content/uploads/2018/02/gaeng-hung-lay-blog.jpg",
+    "price": 150,
+    "description": "A northern Thai curry featuring tender pork belly, garlic, ginger, and a blend of aromatic spices."
+  },
+  {
+    "id": 25,
+    "name": "Khanom Buang",
+    "img": "https://asianinspirations.com.au/wp-content/uploads/2023/10/KB-18.jpg",
+    "price": 50,
+    "description": "A crispy Thai crepe filled with meringue and sweet or savory toppings like shredded coconut or minced shrimp."
+  },
+  {
+    "id": 26,
+    "name": "Kuay Teow Reua",
+    "img": "https://media.cnn.com/api/v1/images/stellar/prod/151215115140-40-thai-food-34-boat-noodles-1.jpg?q=w_1110,c_fill/f_webp",
+    "price": 90,
+    "description": "Known as 'boat noodles,' this rich and flavorful soup features pork or beef, noodles, and aromatic spices."
+  },
+  {
+    "id": 27,
+    "name": "Yam Pla Dook Foo",
+    "img": "https://media.cnn.com/api/v1/images/stellar/prod/151215114435-40-thai-food-26-yam-pla-duk-foo-1.jpg?q=w_1110,c_fill/f_webp",
+    "price": 110,
+    "description": "Crispy catfish flakes served with a tangy green mango salad and a sweet-and-sour dressing."
+  },
+  {
+    "id": 28,
+    "name": "Gaeng Pa",
+    "img": "https://thaifooding.com/wp-content/uploads/2020/05/gaeng-pa-1-4m.jpg?w=1024",
+    "price": 140,
+    "description": "A spicy 'jungle curry' without coconut milk, featuring wild herbs, vegetables, and your choice of meat."
+  },
+  {
+    "id": 29,
+    "name": "Pla Pao",
+    "img": "https://media.cnn.com/api/v1/images/stellar/prod/151215114400-40-thai-food-25-pla-pao-1.jpg?q=w_1110,c_fill/f_webp",
+    "price": 200,
+    "description": "Salt-crusted whole fish grilled over charcoal and stuffed with lemongrass, served with spicy dipping sauce."
+  },
+  {
+    "id": 30,
+    "name": "Khanom Tom",
+    "img": "https://fahthaimag.com/wp-content/uploads/2023/04/justdesert.jpg",
+    "price": 40,
+    "description": "A traditional Thai dessert made of boiled rice flour balls filled with palm sugar and coated with shredded coconut."
+  }
+]
