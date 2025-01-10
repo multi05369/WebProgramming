@@ -1,0 +1,5 @@
+@media screen and (min-width: 576px) and (max-width: 950px) {
+    .col-sm-3 {
+        width: 50%;
+    }
+}

@@ -1,0 +1,35 @@
+* {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+@media screen and (max-width: 1006px) {
+    .col1, .col2, .col3 {
+        width: 33.33%;
+        float: left;
+    }
+    .col4 {
+        width: 100%;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 782px) {
+    .col1, .col2 {
+        width: 50%;
+        float: left;
+    }
+    .col3, .col4 {
+        width: 50%;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 467px) {
+    .col1, .col2, .col3, .col4 {
+        width: 100%;
+        float: left;
+    }
+}
