@@ -1,0 +1,18 @@
+<%- include("head") %>
+
+<body>
+    <!-- สร้างตารางสำหรับแสดงข้อมูล -->
+    <%- include("nav") %>
+
+    <% data.forEach((item)=>{ %>
+        
+        <a href="/delete?id=<%=item.EmployeeId%>"> <%=item.EmployeeId%></a><%=item.LastName%> <br>
+        <%=item.FirstName%> <%=item.Title%>
+        <%=item.Phone%> <br>
+        <%=item.Email%> <br>
+        <br>
+    
+    <% }); %>   
+    
+</body>
+</html>
