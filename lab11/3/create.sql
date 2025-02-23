@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS todo;
+
+CREATE TABLE todo (
+    ID INTEGER PRIMARY KEY AUTOINCREMENT,
+    Title TEXT NOT NULL,
+    Description TEXT,
+    Deadline DATETIME,
+    Complete_status BOOLEAN DEFAULT FALSE
+);
